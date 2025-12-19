@@ -1,0 +1,144 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "E:\\calculator-master\\Obito_calculator\\entry\\build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "E:\\calculator-master\\Obito_calculator\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "E:\\calculator-master\\Obito_calculator\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "E:\\calculator-master\\Obito_calculator\\entry\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "E:\\calculator-master\\Obito_calculator\\entry\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "E:\\calculator-master\\Obito_calculator\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "E:\\calculator-master\\Obito_calculator\\build",
+    "BUNDLE_NAME": "com.samples.arktscalc",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "E:\\calculator-master\\Obito_calculator\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "E:\\calculator-master\\Obito_calculator\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "E:\\calculator-master\\Obito_calculator"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "material": {
+              "certpath": "C:/Users/Obito/.ohos/config/openharmony/default_calculator-master__MNOlF--d91IQ_JQdeUD6hkXbj2LTUfC57D36tabsMo=.cer",
+              "storePassword": "0000001B3743B172C291B89CB0F4B9AB3CEE4F6144586E253902E36374EDD018860802E96769D79C00640C",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001B4C5DC47CE0811E4F38355AE0753391FD12C65DAFFFD6BFB266360E5D12974AF8C81DB9435C206F",
+              "profile": "C:/Users/Obito/.ohos/config/openharmony/default_calculator-master__MNOlF--d91IQ_JQdeUD6hkXbj2LTUfC57D36tabsMo=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "C:/Users/Obito/.ohos/config/openharmony/default_calculator-master__MNOlF--d91IQ_JQdeUD6hkXbj2LTUfC57D36tabsMo=.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compileSdkVersion": 12,
+            "compatibleSdkVersion": 12,
+            "runtimeOS": "OpenHarmony"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "E:\\calculator-master\\Obito_calculator"
+    ]
+  },
+  "version": 1
+}

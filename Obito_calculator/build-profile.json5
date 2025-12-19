@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/Obito/.ohos/config/openharmony/default_calculator-master__MNOlF--d91IQ_JQdeUD6hkXbj2LTUfC57D36tabsMo=.cer",
+          "storePassword": "0000001B3743B172C291B89CB0F4B9AB3CEE4F6144586E253902E36374EDD018860802E96769D79C00640C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B4C5DC47CE0811E4F38355AE0753391FD12C65DAFFFD6BFB266360E5D12974AF8C81DB9435C206F",
+          "profile": "C:/Users/Obito/.ohos/config/openharmony/default_calculator-master__MNOlF--d91IQ_JQdeUD6hkXbj2LTUfC57D36tabsMo=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/Obito/.ohos/config/openharmony/default_calculator-master__MNOlF--d91IQ_JQdeUD6hkXbj2LTUfC57D36tabsMo=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 12,
+        "compatibleSdkVersion": 12,
+        "runtimeOS": "OpenHarmony"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
